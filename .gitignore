@@ -1,0 +1,17 @@
+# Python environments and generated files
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local Streamlit state
+.streamlit/secrets.toml
+
+# Source data and large experimental model are not required to run the live app
+data/
+cardio_random_forest_model.joblib
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
